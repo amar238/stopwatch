@@ -30,7 +30,7 @@ function resetStopwatch() {
     resetBtn.style.backgroundColor = "white"
     resetBtn.style.color="black"
     hours = minutes = seconds = 0;
-    stopwatchElement.textContent = "00:00:00:00";
+    stopwatchElement.textContent = "hh:mm:ss:ms\n00:00:00:00";
 }
 function updateStopwatch() {
     miliseconds+=10;
@@ -46,7 +46,7 @@ function updateStopwatch() {
             }
         }
     }
-    stopwatchElement.textContent = arrange(hours) + ":" + arrange(minutes) + ":" + arrange(seconds) + ":" + arrangeMS(miliseconds);
+    stopwatchElement.textContent = "hh:mm:ss:ms\n" + arrange(hours) + ":" + arrange(minutes) + ":" + arrange(seconds) + ":" + arrangeMS(miliseconds);
 }
 function arrange(num) {
   return (num < 10 ? "0" : "") + num;
