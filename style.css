@@ -5,7 +5,7 @@ body{
     align-items: center;
     height: 100vh;
 }
-
+/* Main stopwatch screen */
 #stopwatch-card {
     width: 200px;
     height: 170px;
@@ -14,6 +14,7 @@ body{
     line-height: 50px;
 }
 
+/* timer display */
 #timer{
     margin: 10px;
     background-color: azure;
@@ -22,6 +23,7 @@ body{
     color:rgb(184, 21, 162) ;
 }
 
+/* buttons */
 #buttons{
     background-color: blanchedalmond;
 }
