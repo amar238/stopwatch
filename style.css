@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#stopwatch-card {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+}
+
+#timer{
+    background-color: azure;
+    font-size: large;
+    font-weight: 800;
+    color:rgb(184, 21, 162) ;
+}
+
+#startBtn{
+    background-color: greenyellow;
+}
