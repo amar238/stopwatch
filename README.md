@@ -7,3 +7,6 @@ It does not have any external depedency.
 - start :-starts timer
 - pause :- pause timer
 - reset :- reset timer
+
+### Demo
+https://amar238.github.io/stopwatch/
